@@ -1,0 +1,887 @@
+ /* All */
+  /* @media only screen  and (min-width : 1224px){
+     #app .menu{
+          width: 60px;
+     }
+     #app .menu-items{
+          width: 60px;
+          height: 60px;
+     }
+     #app .menu-items a span{
+          margin: 0 25px 0 8px;
+          font-size: 10px;
+          line-height: 12px;
+     }
+     .container .wrap-left{
+          width: 50%;
+          padding: 150px 0 0 120px;
+     }
+     .contaner .wrap-left {
+          width: 50%;
+          height: 100%;
+     }
+     .container .wrap-left .img-left img{
+          width: 150px;
+          height: 60px;
+     }
+     .wrap-left .wrap-item .img-left .line-img{
+          margin-top: 30px;
+     }
+     .wrap-left .wrap-item .info .heading{
+          margin-top: 30px;
+          font-size: 25px;
+          line-height: 32px;
+     }
+     .wrap-left .wrap-item .info p{
+          text-align: justify;
+          font-size: 14px;
+          line-height: 20px;
+     }
+     .wrap-left .info .clock{
+          margin-top: 0;
+     }
+     .wrap-left .info .clock .days h2{
+          font-size: 120px;
+          line-height: 140px;
+     }
+     .wrap-left .info .clock .days span{
+          top: 90px;
+          font-size: 20px;
+          padding-right: 35px;
+          padding-left: 15px;
+     }
+     
+     .wrap-left .clock .countdown{
+          bottom: 215px;
+     }
+     .wrap-left .clock .countdown h2{
+          font-size: 25px;
+     }
+     .wrap-left .clock .countdown span{
+          font-size: 12px;
+          line-height: 14px;
+     }
+
+
+     .wrap-left .info-text{
+          width: 78%;
+     }
+     .wrap-left .info-text .title{
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 30px;
+     }
+     .contaner .wrap-right {
+          width: 50%;
+          height: 100%;
+     }
+     .wrap-left .info-text p{
+          font-size: 12px;
+          line-height: 20px;
+     }
+     .wrap-left .info-text .heading{
+          font-size: 12px;
+     }
+     .wrap-left .info-text .img-about{
+          margin-top: 50px;
+     }
+     .wrap-left .info-text .img-about img{
+          width: 50px;
+          height: 50px;
+     }
+     .wrap-left .info-text .img-about p{
+          font-size: 18px;
+          margin-top: 25px;
+          line-height: 20px;
+     }
+     .wrap-left .info-text .contact-up p{
+          font-size: 16px;
+          line-height: 18px;
+     }
+     .wrap-left .info-text .contact-down p{
+          font-size: 14px;
+          line-height: 16px;
+     }
+     .wrap-left .info-text .contact-down .icon-contact{
+          padding-left: 40px;
+     }
+     .container .wrap-right .wrap-item-right{
+          margin-right: 50px;
+     }
+     .container .wrap-right .title{
+          font-size: 40px;
+     }
+     .container .wrap-right .heading-right{
+          margin-top: 25px;
+          font-size: 20px;
+          margin-bottom: 20px;
+     }
+     .container .wrap-right .heading-right p{
+          font-size: 14px;
+          line-height: 28px;
+     }
+}   */
+@media only screen and (max-width: 1440px){
+     #app .menu-items a span{
+          margin: 0 25px 0 8px;
+          font-size: 10px;
+          line-height: 12px;
+     }
+     .container .wrap-left{
+          width: 50%;
+          padding: 150px 0 0 120px;
+     }
+     .contaner .wrap-left {
+          width: 50%;
+          height: 100%;
+     }
+     .container .wrap-left .img-left img{
+          width: 150px;
+          height: 60px;
+     }
+     .wrap-left .wrap-item .img-left .line-img{
+          margin-top: 30px;
+     }
+     .wrap-left .wrap-item .info .heading{
+          margin-top: 30px;
+          font-size: 25px;
+          line-height: 32px;
+     }
+     .wrap-left .wrap-item .info p{
+          text-align: justify;
+          font-size: 14px;
+          line-height: 20px;
+     }
+     .wrap-left .info .clock{
+          margin-top: 0;
+     }
+     .wrap-left .info .clock .days h2{
+          font-size: 120px;
+          line-height: 140px;
+     }
+     .wrap-left .info .clock .days span{
+          top: 90px;
+          font-size: 20px;
+          padding-right: 35px;
+          padding-left: 15px;
+     }
+     
+     .wrap-left .clock .countdown{
+          bottom: 215px;
+     }
+     .wrap-left .clock .countdown h2{
+          font-size: 25px;
+     }
+     .wrap-left .clock .countdown span{
+          font-size: 12px;
+          line-height: 14px;
+     }
+
+
+     .wrap-left .info-text{
+          width: 78%;
+     }
+     .wrap-left .info-text .title{
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 30px;
+     }
+     .contaner .wrap-right {
+          width: 50%;
+          height: 100%;
+     }
+     .wrap-left .info-text p{
+          font-size: 12px;
+          line-height: 20px;
+     }
+     .wrap-left .info-text .heading{
+          font-size: 12px;
+     }
+     .wrap-left .info-text .img-about{
+          margin-top: 50px;
+     }
+     .wrap-left .info-text .img-about img{
+          width: 50px;
+          height: 50px;
+     }
+     .wrap-left .info-text .img-about p{
+          font-size: 18px;
+          margin-top: 25px;
+          line-height: 20px;
+     }
+     .wrap-left .info-text .contact-up p{
+          font-size: 16px;
+          line-height: 18px;
+     }
+     .wrap-left .info-text .contact-down p{
+          font-size: 14px;
+          line-height: 16px;
+     }
+     .wrap-left .info-text .contact-down .icon-contact{
+          padding-left: 40px;
+     }
+     .container .wrap-right .wrap-item-right{
+          margin-right: 50px;
+     }
+     .container .wrap-right .title{
+          font-size: 40px;
+     }
+     .container .wrap-right .heading-right{
+          margin-top: 25px;
+          font-size: 20px;
+          margin-bottom: 20px;
+     }
+     .container .wrap-right .heading-right p{
+          font-size: 14px;
+          line-height: 28px;
+     }
+     
+}
+@media only screen and (max-width: 1400px){
+     #app{
+          z-index: 999;
+          background: blue;
+     }
+}
+@media only screen and (max-width: 1366px){
+
+     #app{
+          z-index: 999;
+          background: white;
+    }
+}
+@media only screen and (max-width: 1280px){
+     #app{
+          z-index: 999;
+          background: rebeccapurple;
+     }
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+     #app{
+          z-index: 999;
+          background: yellow;
+     }
+     /* MEnu */
+     #app .menu{
+          height: 100vh;
+          width: 40px;
+     }
+     #app .menu-items{
+          width: 40px;
+          height: 40px;
+     }
+     #app .menu-items:hover a span, #app .menu-items.active a span {
+          visibility: hidden;
+     }
+     .menu .icon-menu{
+          font-size: 15px;
+     }
+     /* Container */
+     .container{
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          background-image: linear-gradient(-10deg, #E5E5E5 50%, #D72046 51%);
+     }
+     .container .wrap-left{
+          /* margin: 34px 0 0 88px; */
+          margin: 0;
+          padding-left: 88px;
+          padding-top: 34px;
+          padding-right: 88px;
+          width: 100%;
+          height: 50%;
+     }
+     /* Line */
+     .wrap-left .wrap-item .img-left .line-img{
+                margin-left: auto;
+                margin-top: 30px;
+     }
+     /* wrap item */
+     .container .wrap-left .wrap-item .img-left{
+          text-align: right;
+     }
+     .container .wrap-left .wrap-item .img-left img{
+          width: 150px;
+          height: 51.35px;
+     }
+     .container .wrap-left .wrap-item .info{
+          width: 60%;
+          position: absolute;
+          top: 34px;
+          height: 293.58px;
+
+     }
+     .wrap-left .wrap-item .info .heading{
+          margin: 0;
+          font-size: 30px;
+     }
+     .wrap-left .wrap-item .info p{
+          font-size: 14px;
+          width: 80%;
+     }
+     /* CLOCK */
+     .wrap-left .info .clock{
+          margin-top: 15px;
+     }
+     .wrap-left .info .clock .days h2{
+          font-size: 120px;
+          line-height: 141px;
+          padding-right: 24px;
+     }
+     .wrap-left .info .clock .days span{
+          font-size: 20px;
+          top: 95px;
+          padding-right: 35px;
+     }
+     .wrap-left .clock .countdown{
+          top: 120px;
+          padding-left: 38px;
+     }
+     .wrap-left .clock .countdown h2{
+          padding-right: 15px;
+          font-size: 25px;
+          line-height: 29px;
+     }
+     .wrap-left .clock .countdown span{
+          padding-right: 65px;
+          top: 10px;
+          font-size: 14px;
+          line-height: 16px;
+     }
+     .wrap-left .clock .countdown span:last-child{
+          
+     }
+     /* NAVIGATION */
+     .wrap-left .nagivation{
+          left: 50%;
+     }
+     /* About */
+     .wrap-left .info-text{
+          position: absolute;
+          top: 34px;
+          width: 50%;
+          text-align: justify;
+     }
+     .wrap-left .info-text .title{
+          margin: 0 0 15px 0;
+     }
+     .wrap-left .info-text .heading{
+          font-size: 16px;
+          line-height: 25px;
+     }
+     .wrap-left .info-text .img-about{
+          margin-top: 36px;
+          width: 50%;
+          height: 77px;
+     }
+     .wrap-left .info-text .img-about img{
+          width: 40px;
+          height: 40px;
+     }
+     .wrap-left .info-text .img-about p{
+          margin-top: 18px;
+          font-size: 15px;
+          line-height: 17px;
+     }
+     .wrap-left .info-text .img-about .img-item{
+          /* margin-right: 83px; */
+     }
+     /* SIGNIN */
+     .wrap-left .info-text .heading-signin{
+          margin-top: 31px;
+     }
+     .wrap-left .info-text .form-register{
+          margin-top: 30px;
+     }
+     /* CONTACT */
+     .wrap-left .info-text .contact-up{
+          margin-top: 40px;
+     }
+     .wrap-left .info-text .contact-up .phone{
+          margin-right: 106px;
+     }
+     .wrap-left .info-text .contact-down{
+          margin-top: 31px;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 36px;
+     }
+     .wrap-left .info-text .contact-down p{
+          width: 100%;
+     }
+     .wrap-left .info-text .contact-down .icon-contact{
+          margin-top: 36px;
+          padding: 0;
+     }
+     /* Container right*/
+     .container .wrap-right{
+          width: 100%;
+          height: 50%;
+          display: flex;
+          text-align: left;
+          flex-direction: row;
+
+
+     }
+     .container .wrap-right .wrap-item-right{
+          width: 40%;
+          margin: 120px 0 0 88px;
+     }
+     .container .wrap-right .title{
+          margin: 0;
+          font-size: 30px;
+          white-space: nowrap;
+     }
+     .container .wrap-right .heading-right{
+          margin-top: 9px;
+          font-size: 16px;
+     }
+     .container .wrap-right .heading-right p{
+          font-size: 14px;
+          letter-spacing: 0.1em;  
+     }
+     .container .wrap-right .btn-click{
+          margin-top: 24px;
+          width: 85px;
+          height: 25px;
+          padding: 0 8px;
+          font-size: 10px;
+          line-height: 0;
+     }
+     .container .wrap-right .img-right{
+         width: 60%;
+         height: 100%;
+     }
+
+
+}
+@media only screen and (max-width: 768px){
+     #app{
+          z-index: 999;
+          background: saddlebrown; 
+     }
+     .container{
+          background-image: linear-gradient(-15deg, #E5E5E5 43%, #D72046 44%);  
+     }
+     .container .wrap-left{ 
+          padding: 0;
+          margin: 0;
+          height: 70%;
+     }
+     .container .wrap-left .wrap-item .img-left{
+          margin-top: 69px;
+          text-align: center;
+
+     }
+     /* line */
+     .wrap-left .wrap-item .img-left .line-img{
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .wrap-left .wrap-item .line-content{
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .container .wrap-left .wrap-item .info{
+          position: relative;
+          width: 100%;       
+     }
+     .wrap-left .wrap-item .info .heading{
+          text-align: center;
+     }
+     .wrap-left .wrap-item .info p{
+          width: 100%;
+          padding: 0 122px;
+          text-align: center;
+     }
+     .wrap-left .info .clock{
+         
+     }
+     .wrap-left .info .clock .days{
+          display: flex;
+          justify-content: center;
+     }
+     .wrap-left .info .clock .days h2{
+          margin-left: 15px;
+     }
+     .wrap-left .clock .countdown{
+          padding: 0;
+          margin: 0 0 0 153px;
+          width: 60%;
+          padding-left: 38px;
+          height: 60px;
+          top: 110px;
+          padding-top: 30px;
+
+     }
+     .wrap-left .clock .countdown h2{
+          font-size: 25px;
+         
+          line-height: 29px;
+     }
+     .wrap-left .info .clock .days span{
+          padding-right: 40px;
+     }
+     /* About */
+     .wrap-left .info-text{
+          position: relative;
+          margin-top: -5px;
+          width: 100%;
+          text-align: center;
+          padding: 0 114px;
+     }
+     .wrap-left .info-text .img-about{
+          width: 100%;
+          padding: 0 40px;   
+          margin-top: 20px; 
+     }
+     .wrap-left .info-text .img-about .img-item{
+     }
+     .wrap-left .info-text .img-about p{
+          margin-top: 15px;
+     }
+     form.form-register{
+          width: 90%;
+     }
+     .wrap-left .info-text p{
+          text-align: center;
+     }
+     
+     /* Contact */
+     .wrap-left .info-text .contact-up{
+          display: flex;
+          justify-content: center;
+     }
+     .wrap-left .info-text .contact-down .icon-contact{
+          display: flex;
+          justify-content: center;
+     }
+     .wrap-left .info-text .contact-down .icon-contact .icon-item{
+          margin: 0 15px;
+     }
+     
+     /* Wrap right */
+     .container .wrap-right .wrap-item-right{
+          margin-left: 23px;
+        }
+     .container .wrap-right .heading-right{
+          white-space: nowrap ;
+
+     }
+     .container .wrap-right .heading-right p{
+          font-size: 12px;
+
+     }
+     .container .wrap-right .img-right{
+          padding-top: 40px;
+     }
+
+}
+@media only screen and (max-width: 736px){
+     #app{
+          z-index: 999;
+          background: pink;
+     }
+     #app .menu{
+          width: 30px;
+          height: 100%;
+     }
+     #app .menu-items{
+          width: 30px;
+          height: 30px;
+     }
+     #app .menu-items:not(:last-child):after{
+          content: '';
+          display: block;
+          position: absolute;
+          height: 1px;
+          width: 10px;
+          background: #E5E5E5;
+          bottom: -1px;
+          left: 50%;
+          transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          -moz-transform: translateX(-50%);
+     }
+     .menu .icon-menu {
+          font-size: 10px;
+     }
+     .container{
+          background-image: linear-gradient(-15deg, #E5E5E5 40%, #D72046 40%);
+     }
+     .container .wrap-left{
+        width: 100%;
+        height: 50%;
+     }
+     .container .wrap-left .wrap-item .img-left{
+          margin-top: 20px;
+     }
+     .container .wrap-left .wrap-item .img-left img{
+          width: 100px;
+          height: 34.23px;
+     }
+     /* LINE */
+     .wrap-left .wrap-item .line-content{
+          margin-top: 11px;
+     }
+     .wrap-left .wrap-item .img-left .line-img{
+          margin-top: 14px;
+          width: 30px;
+          height: 1px;
+     }
+     .container .wrap-left .wrap-item .info{
+          margin-top: -20px;
+     }
+     .wrap-left .wrap-item .info .heading{
+          font-size: 12px;
+          line-height: 14px;
+          margin-top: -10px;
+     }
+     .wrap-left .wrap-item .info p{
+          padding: 0 24px;
+          font-size: 7px;
+          line-height: 10px;
+     }
+     .wrap-left .info .clock{
+          margin-top: 11px;
+     }
+     .wrap-left .info .clock .days{
+          display: flex;
+          justify-content: left;
+          margin-left: 51px;
+     }
+     .wrap-left .info .clock .days h2{
+          font-size: 70px;
+          line-height: 82px;
+          margin-left: 0;
+          padding-left: 0;
+     }
+     .wrap-left .info .clock .days span{
+          font-size: 15px;
+          line-height: 25px;
+          position: absolute;
+          top: 47px;
+          left: 185px;
+          padding-right: 5px;
+     }
+     .wrap-left .clock .countdown{
+          padding: 13px 0 13px 0;
+          margin-left: 38px;
+          height: 35px;
+          top: 65px;
+          padding: 15px 5px 5px 13px;
+          width: 75%;
+
+     }
+     .wrap-left .clock .countdown h2{
+          font-size: 12px;
+          line-height: 14px;
+          padding-right: 5px;
+          height: 25px;
+          
+     }
+     .wrap-left .clock .countdown span{
+          font-size: 8px;
+          line-height: 9px;
+          padding-right: 41px;
+          height: 25px;
+          top: 4px;
+          /* display: none; */
+     }
+     .wrap-left .clock .countdown h2:first-child{
+          margin: 0;
+          height: 0;
+     }
+     .wrap-left .clock .countdown span:last-child{
+          margin: 0;
+          height: 0;
+     }
+     /* NAGIVATION */
+     .wrap-left .nagivation{
+          bottom: 10px;
+     }
+     .wrap-left .nagivation .btn.active{
+          width: 4px;
+          height: 4px;
+     }
+     .wrap-left .nagivation .btn{
+          width: 2px;
+          height: 2px;
+          margin: 0 4px;
+     }
+     /* About */
+     .wrap-left .info-text{
+          position: relative;
+          margin-top: -20px;
+          padding: 0;
+          padding: 0 20px;
+     }
+     .wrap-left .info-text .title{
+          font-size: 12px;
+          line-height: 14px;
+          margin-bottom: 12px;
+     }
+     .wrap-left .info-text p{
+          font-size: 7px;
+          line-height: 10px;
+     }
+     .wrap-left .info-text .heading{
+          margin-top: 6px;
+          font-size: 7px;
+          line-height: 10px;
+          padding: 5px 0;
+     }
+     .wrap-left .info-text .img-about{
+          margin-top: 6px;
+     }
+     .wrap-left .info-text .img-about img{
+          width: 20px;
+          height: 20px;
+     }
+     .wrap-left .info-text .img-about p{
+          font-size: 7px;
+          line-height: 8px;
+          margin-top: 11px;
+     }
+     /* Signin */
+     .wrap-left .info-text .heading-signin{
+          font-size: 10px;
+          line-height: 10px;
+          margin-top: 12px;
+     }
+     .wrap-left .info-text p{
+          margin-top: 12px;
+          text-align: center;
+     }
+     .wrap-left .info-text .form-register{
+          margin-top: 21px;
+          padding: 0 50px 0 15px;
+          width: 100%;
+     }
+     .wrap-left .info-text .form-register label{
+          height: 25px;
+          padding: 9px;
+          font-size: 7px;
+          line-height: 8px;
+         
+     }
+     .wrap-left .info-text .form-register input{
+          height: 25px;
+          padding-left: 44px;
+          padding: 9px 0 9px 44px;
+          font-size: 9px;
+
+     }
+     input::placeholder { /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+          font-size: 7px;
+          line-height: 8px;
+     
+      }
+     .wrap-left .info-text .form-register button{
+          height: 25px;
+          width: 40px;
+          padding: 9px 14px;
+          font-size: 7px;
+          line-height: 9px;
+     }
+     /* Contact */
+     .wrap-left .info-text .contact-up{
+          margin: 0;
+     }
+     .wrap-left .info-text .contact-up .title-contact{
+          font-size: 7px;
+          line-height: 8px;
+     }
+     .wrap-left .info-text .contact-up p{
+          font-size: 7px;
+          line-height: 8px;
+          margin-top: 4px;
+          margin: 4px 0 0 0 ;
+     }
+     .wrap-left .info-text .contact-down{
+          margin-top: 19px;
+          margin-bottom: 15px;
+     }
+     .wrap-left .info-text .contact-down .title-contact{
+          font-size: 7px;
+          line-height: 8px;
+     }
+     .wrap-left .info-text .contact-down p{
+          font-size: 7px;
+          line-height: 8px;
+          margin: 4px 0 0 0;
+     }   
+     .wrap-left .info-text .contact-down .icon-contact{
+          margin-top: 27px;
+     }
+     .wrap-left .info-text .contact-down .icon-contact .icon-item{
+          margin: 0 10px;
+     }
+     .wrap-left .info-text .contact-down .icon-contact .icon-item i{
+          font-size: 15px;
+     }
+     .wrap-left .info-text .contact-text{
+          font-size: 7px;
+          line-height: 8px;
+     }
+     .container .wrap-right .wrap-item-right{
+          width: 30%;
+     }
+     .container .wrap-right .title{
+          font-size: 10px;
+          line-height: 10px;
+     }
+     .container .wrap-right .heading-right{
+          font-size: 6px;
+          line-height: 10px;
+     }
+     .container .wrap-right .heading-right p{
+          font-size: 4px;
+          line-height: 10px;
+     }
+     .container .wrap-right .btn-click{
+          margin-top: 6px;
+          width: 50px;
+          height: 15px;
+          font-size: 6px;
+          line-height: 10px;
+          padding: 0 6px;
+     }
+     .container .wrap-right .img-right{
+          width: 70%;
+     }
+     .img-right img{
+          padding-top: 50px;
+     }
+    
+    
+}
+@media only screen and (max-width: 667px){
+  
+}
+@media only screen and (max-width: 600px){
+  
+}
+@media only screen and (max-width: 568px){
+  
+}
+@media only screen and (max-width: 480px){
+  
+}
+@media only screen and (max-width: 414px){
+  
+}
+@media only screen and (max-width: 384px){
+  
+}
+@media only screen and (max-width: 375px){
+  
+}
+@media only screen and (max-width: 320px){
+  
+}
